@@ -1,0 +1,63 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(31, 34, 34);
+}
+
+/* id:"lupa" cuando seapara un solo elemento */
+#lupa {
+    color: gray;
+}
+
+/* class:"icono" cuando sea para uno o mas elementos */
+.icono {
+    width: 30px;
+    height: 30px;
+    
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+    display: inline-block;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+   
+
+
+footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+footer ul li{
+    margin: 10px;
+    display: inline-block;
+}
+
+#opciones{
+    display: flex;
+}
+
+#caja-buscador{
+    display: flex;
+    border: 4px solid gray;
+    min-height: 1px;
+    width: 600px;
